@@ -1,0 +1,56 @@
+@import './base.css';
+
+#app {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 500px;
+    font-weight: normal;
+    overflow: auto;
+}
+.app-wrapper {
+    height: 100%;
+    height: 100%;
+    max-width: 1280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    height: calc(100dvh - 140px);
+    min-height: 500px;
+
+}
+
+* {
+    color: var(--main-text);
+}
+a {
+    text-decoration: none;
+    color: var(--main-text);
+    transition: 0.4s;
+    margin: 8px;
+    padding: 4px;
+}
+
+@media (min-width: 1024px) {
+    header {
+        padding: 1rem;
+    }
+    section {
+        height: calc(100dvh - 140px);
+        min-height: 500px;
+    }
+    #app {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #app {
+        padding: 0.5rem;
+        padding-top: 1rem;
+    }
+
+}
